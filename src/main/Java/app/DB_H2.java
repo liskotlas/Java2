@@ -13,6 +13,8 @@ public class DB_H2 {
 
             Statement stmt = h2.createStatement();
 
+//            CREATE DB
+
             String schemaCreate = "CREATE SCHEMA IF NOT EXISTS db AUTHORIZATION sa";
             stmt.executeUpdate(schemaCreate);
 
